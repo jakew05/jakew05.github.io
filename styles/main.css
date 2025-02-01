@@ -1,0 +1,28 @@
+/* Jake West / Jan 30 2025 / CS 125H Lab 3 */
+
+h2 {
+    color: darkred;
+}
+
+main {
+    p {
+        color: darkred;
+        font-family: sans-serif;
+    }
+}
+
+main p::first-letter {
+    font-size: 20px;
+}
+
+#title {
+    color: saddlebrown;
+}
+
+/*.bold::first-letter {
+    font-size: xx-large;
+}*/
+
+footer p {
+    text-align: center;
+}
