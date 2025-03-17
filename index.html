@@ -1,28 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Jake West / Jan 30 2025 / CS 125H - Lab 2 -->
-        <meta charset="utf-8">
-        <title>Jake's Book Reviews</title>
-        <link rel="stylesheet" href="styles/main.css">
-    </head>
-    <body style="background-color:rgb(146, 189, 245)">
-        <header>
-            <h1>Jake's Book Reviews</h1>
-        </header>
-        <main>
-            <h2>Science Fiction</h2>
-            <img src="images/dune.jpg" width="70"><br>
-            <h3><a href="reviewPages/dune.html">Dune - Frank Herbert</a></h3>
 
-            <h2>Fantasy</h2>
-            <img src="images/tNotW.jpg" width="70"><br>
-            <h3><a href="reviewPages/tNotW.html">The Name of the Wind - Patrick Rothfus</a></h3>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>MyBookReviews</title>
+</head>
 
-            <h2>Nonfiction</h2>
-        </main>
-        <footer>
-            <p>&copy; Jake West</p>
-        </footer>
-    </body>
+<body>
+    <header>
+        <h1>My Book Reviews</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a>About</a></li>
+            <li><a href="pages/menupages/suggest.html">Suggest a Review</a></li>
+            <li><a>Genres</a>
+                <ul>
+                    <li><a>Fantasy</a></li>
+                    <li><a href="pages/menupages/scifi.html">Science Fiction</a></li>
+                    <li><a>Nonfiction</a></li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+    </nav>
+
+    <main>
+        <p>
+            Rothfus, Patrick: The Name of the Wind / Sanderson, Brandon: The Way of Kings / Tolkien, J.R.R: The Fellowship of the Ring  
+        </p>
+        <h2><a>Fantasy</a></h2>
+        <img src="images/backgrounds/fantasybg.jpg" alt="Fantasy" height="200"><br>
+        
+        <br>
+        <p>
+            Clarke, Arthur C.: 2001: A Space Odyssey / Herbert, Frank: Dune / Sagan, Carl: Contact 
+        </p>
+        <h2><a href="pages/menupages/scifi.html">Science Fiction</a></h2>
+        <a href="pages/menupages/scifi.html"><img src="images/backgrounds/scifibg.jpg" alt="SciFi" height="200"><br></a>
+
+        <br>
+        <p>
+            Murach, HTML/CSS :] / Sagan, Carl: Cosmos / Tyson, Neil DeGrasse: Astrophysics for People in a Hurry
+        </p>
+        <h2><a>Nonfiction</a></h2>
+        <img src="images/backgrounds/nonfictionbg.jpeg" alt="SciFi" height="200"><br>
+        <br>
+    </main>
+
+    <footer>
+        <p>&copy; 2025, Jake West</p>
+    </footer>
+</body>
 </html>

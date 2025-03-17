@@ -4,32 +4,24 @@
 }
 html {
     background-image: url(../images/backgrounds/space2bg.avif);
-    background-size: cover;
+    background-size:auto;
 }
 
 /*body*/
 body {
-    background-color: rgb(236, 187, 147);
+    background-color: rgb(165, 141, 126);
     width: 800px;
     margin: auto;
-    border: solid 5px rgb(9, 9, 39);
+    border: solid 5px rgb(0, 0, 0);
 }
 
 /*header*/
-header {
-    background: linear-gradient(90deg, rgb(209, 151, 101) 0%, sandybrown 30%,
-     rgb(255, 236, 207) 50%, sandybrown 80%, rgb(209, 151, 101) 100%);
-}
 header h1 {
-    padding: .5em;
     text-align: center;
-    display: block;
-    background-color:rgb(223, 149, 84);
-}
-header img {
-    padding: 1em;
-    display: block;
-    margin: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(201, 176, 176);
+    padding: 1em 0;
 }
 
 /*nav*/
@@ -62,11 +54,11 @@ nav ul li a {
     display: block;
     width: 200px;
     text-align: center;
-    background-color: rgb(218, 157, 78);
+    background-color: rgb(243, 208, 162);
     padding-top: 1em;
     padding-bottom: 1em;
     /*font*/
-    color: rgb(0, 0, 0);
+    color: rgb(14, 60, 87);
     font-weight: 500;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
@@ -76,39 +68,44 @@ nav ul li a:hover {
 }
 
 /*main*/
-main img {
-    float: right;
-    margin: 2em;
-    border: 2px solid black;
-}
-main p {
-    padding: 0 1em;
-}
-main ol {
-    margin-left: 4em;
-}
 main h2 {
-    padding: 1em;
-    padding-left: .75em;
+    display: block;
+    background-color:rgb(211, 170, 116);
+    text-align: center;
+    padding: .3em 0;
 }
 main h3 {
-    padding: .5em 1em;
+    display: block;
+    background-color:rgb(207, 174, 142);
+    text-align: center;
+}
+main img {
+    margin: 5%;
+    border-right: 12px solid rgb(226, 204, 185);
+    border-bottom: 5px solid rgb(226, 204, 185);
+    border-bottom-left-radius: .3em;
+    border-top-right-radius: .8em;
 }
 
 /*table*/
+figure {
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
 figcaption {
     font-size: large;
     font-weight: bold;
     text-align: center;
 }
 table {
-    border: 2px solid black;
+    border: 1px solid black;
     border-collapse: collapse;
     margin: auto;
 }
 td {
     text-align: center;
-    background-color:rgb(238, 226, 203)
+    background-color:rgb(199, 190, 174)
 }
 td, th {
     border: 1px solid black;
@@ -128,6 +125,10 @@ tfoot td {
 
 /*footer*/
 footer {
+    background-color: rgb(204, 183, 154);
+    clear: both;
+}
+footer p {
     text-align: center;
-    padding: 2em 0;
+    padding: 1em 0;
 }
