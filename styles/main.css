@@ -3,13 +3,16 @@
     padding: 0;
 }
 html {
-    background-image: url(../images/backgrounds/bookshelfbg.webp);
+    background-image: url(../images/backgrounds/nonfictionbg.jpeg);
+    background-size:contain;
 }
 
 /*body*/
 body {
     background-color: rgb(175, 134, 109);
-    width: 800px;
+    width: 80%;
+    max-width: 800px;
+    min-width: 400px;
     margin: auto;
     border: solid 5px rgb(9, 9, 39);
 }
@@ -71,6 +74,7 @@ main img {
     display: block;
     margin: auto;
     width: 45%;
+    height: 20%;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
 }
